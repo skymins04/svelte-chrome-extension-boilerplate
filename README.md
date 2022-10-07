@@ -1,8 +1,8 @@
-# Svelte boilerplate for Chrome Extension (menifest v3)
+# Svelte boilerplate for Chrome Extension (manifest v3)
 
 ## overview
 
-This repository is Svelte-boilerplate for Chrome-Extension (menifest v3) development.
+This repository is Svelte-boilerplate for Chrome-Extension (manifest v3) development.
 
 ## how to use
 
@@ -37,7 +37,7 @@ $ python3 ./icon-generator.py <blahblah.png>
 | | ㄴ bundle.js
 | | ㄴ bundle.css
 | ㄴ icon/
-| ㄴ menifest.json
+| ㄴ manifest.json
 | ㄴ popup.html
 | ㄴ global.css
 | ㄴ background.js
@@ -61,7 +61,7 @@ $ python3 ./icon-generator.py <blahblah.png>
 | public/              | Directory of built static files for registration as chrome extensions                                         |
 | public/build/        | Bundled js file used in popup.html                                                                            |
 | public/icon/         | Chrome extension icon image file directory                                                                    |
-| public/menifest.json | Metadata definition files for Chrome Extensions                                                               |
+| public/manifest.json | Metadata definition files for Chrome Extensions                                                               |
 | public/popup.html    | HTML files to be used for Chrome extension pop-ups                                                            |
 | public/global.html   | Global style definition file used in popup.html                                                               |
 | public/background.js | Service worker files for Chrome Extensions                                                                    |
